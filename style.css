@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: Calibri;
+
+}
+
+header {
+    background: url(Imagenes/2625061.jpg);
+    height: 400;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    min-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+section h1 {
+    font-size: 44px;
+    text-align: center;
+}
+
+.contenido { 
+    text-align: center;
+
+}
+
+
+.contenido p {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.contenido a {
+    color: white;
+    text-decoration: none;
+    background: #BF9742;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+body {
+    background-image: url(Imagenes/Doodle.jpg);
+}
