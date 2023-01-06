@@ -43,19 +43,23 @@ header {
 
 .Contenedor{
     display: flex;
-    justify-content: center;
-    
+    /* justify-content: center; */
+    /* margin-left: 5px; */
+     /* height: 200px; */
+    /* align-items: center; */
    
     
 }
 
 .Contenido {
-    font-size: 65px;
+    font-size: 45px;
     background-color: #BF9742;
     border-radius: 10px;
-    width: 500px;
-    height: 200px;
+    margin: 30px 50px 0 50px;
+
 }
+
+
 
 body {
     background-image: url(Imagenes/Doodle.jpg);
