@@ -1,7 +1,10 @@
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 body {
@@ -17,30 +20,18 @@ header {
     background-repeat: no-repeat;
 }
 
-section {
-    min-width: 1000px;
-    margin: auto;
-    padding: 30px 0;
-}
-
-section h1 {
-    font-size: 44px;
-    text-align: center;
-}
-
-.contenido { 
+.Options { 
     text-align: center;
 
 }
 
-
-.contenido p {
+.Options p {
     font-size: 60px;
     font-weight: bold;
     margin: 1em 0;
 }
 
-.contenido a {
+.Options a {
     color: white;
     text-decoration: none;
     background: #BF9742;
@@ -48,6 +39,22 @@ section h1 {
     border-radius: 30px;
     font-size: 20px;
     margin: 10px;
+}
+
+.Contenedor{
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+
+.Contenido {
+    font-size: 65px;
+    background-color: #BF9742;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
 }
 
 body {
