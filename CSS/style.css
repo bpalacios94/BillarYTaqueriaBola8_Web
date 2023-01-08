@@ -30,12 +30,12 @@ h4{
 body {
     color: white;
     font-family: Calibri;
-    background-image: url(Imagenes/Doodle.jpg);
+    background-image: url(../Imagenes/Doodle.jpg);
 
 }
 
 header {
-    background: url(Imagenes/2625061.jpg);
+    background: url(../Imagenes/2625061.jpg);
     height: 400;
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,14 +158,4 @@ p{
     color: #25D366;
   }
   
-  /* footer img {
-    width: 32px;
-    height: 32px;
-  }
-
-  .IconoFacebook {
-    width: 5rem;
-    height: 5rem;
-    
-
-  } */
+ 
