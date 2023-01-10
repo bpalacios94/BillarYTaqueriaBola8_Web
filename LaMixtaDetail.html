@@ -9,7 +9,8 @@
     <link rel="shortcut icon" href="Imagenes/Bola8  sin fondo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/all.css">
-    <link rel="stylesheet" href="CSS/LaMixtaDetail.css">
+    <link rel="stylesheet" href="CSS/productDetail.css">
+    <link rel="stylesheet" href="CSS/modal.css">
 </head>
 <body>
     <header>
@@ -36,13 +37,22 @@
                     <h2 class="home-title">La Mixta</h2>
                     <h2 class="home-subtitle">Filete de pollo o pollo empanizado. 150 grs de carne<br> de res, queso americano,<br> vegetales y la salsa especial.</h2>
                     <div class="btn-menu">
-                        <a href="#" class="button btn-menu">Comprar</a>
+                        <button id="abrirModal" class="button btn-menu">Comprar</button>
                     </div>
                 </div>
                 
                 <img src="Imagenes/Menu Hamburguesas/Charly MIX.png" alt="home food picture" class="home-img" style="background-color:#A47E3B; border-radius: 25px; margin-right: 25px;">
             </div>
         </section>
+      
+        <!-- Ventana modal, por defecto no visiblel -->
+        <div id="ventanaModal" class="modal">
+          <div class="contenido-modal">
+              <h2 style="font-size: 2rem; color: black;">¡Muchas gracias por su compra!</h2>
+              <p style="color: black; font-size: 1.5rem;">Le agradecemos por su preferencia, por favor siga comprando con nosotros</p>
+              <button class="cerrar" style="color: black; font-size: 1rem;">cerrar</button>
+          </div>
+        </div>
         
          <!-- Footer -->
       <footer>
@@ -57,5 +67,6 @@
     </main>
 
     
+    <script src="Javascript/efecto.js"></script>
 </body>
 </html>
