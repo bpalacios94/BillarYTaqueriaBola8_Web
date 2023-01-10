@@ -46,10 +46,6 @@
     --z-fixed: 100;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 h1{
     font-size: 44px; 
     text-align: center;

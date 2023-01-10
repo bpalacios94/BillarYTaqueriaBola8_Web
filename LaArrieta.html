@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/all.css">
-    <link rel="stylesheet" href="CSS/burguerMenuStyle.css">
-    <title>Menu de Hamburguesas</title>
+    <title>Billar y Taqueria Bola 8</title>
     <link rel="shortcut icon" href="Imagenes/Bola8  sin fondo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/productDetail.css">
+    <link rel="stylesheet" href="CSS/modal.css">
 </head>
 <body>
     <header>
@@ -28,43 +30,32 @@
             </div>
         </section>
     </header>
-
-    <!-- Menu de Hamburguesas -->
-
-    <section class="menu-items">
-       
-        <ol class="menu-item-listing">
-            <li>
-                <span class="menu-item-name">La Mixta</span>
-                <a href="LaMixtaDetail.html"><img src="Imagenes/Menu Hamburguesas/Charly MIX.png" alt="imagen de hamburguesa la mixta"/></a>
-            </li>
-            <li>
-                <span class="menu-item-name">La Campesina</span>
-                <a href="LaCampesina.html"><img src="Imagenes/Menu Hamburguesas/Campesina.png" alt="la campesina"/></a>
-            </li>
-            <li>
-                <span class="menu-item-name">La Arrieta</span>
-                <a href="LaArrieta.html"><img src="Imagenes/Menu Hamburguesas/La Arrieta.png" alt="la arrieta"/></a>
+    <main>
+        <section class="home" id="home">
+            <div class="home-container body-container body-grid">
+                <div class="home-data">
+                    <h2 class="home-title">La Arrieta   </h2>
+                    <h2 class="home-subtitle">150 grs de carne de res, vegetales, tocino, queso mozarella, plátano maduro, chicharrón, cebolla caramelizada y salsa especial.</h2>
+                    <div class="btn-menu">
+                        <button id="abrirModal" class="button btn-menu">Comprar</button>
+                    </div>
+                </div>
                 
-            </li>
-            <li>
-                <span class="menu-item-name">La Dobletera</span>
-                <a href="LaDobletera.html"><img src="Imagenes/Menu Hamburguesas/DOble.png" alt="la dobletera"/></a>
-                
-            </li>
-            <li>
-                <span class="menu-item-name">La Waka Mol</span>
-                <a href="LaGuacamol.html"><img src="Imagenes/Menu Hamburguesas/La Waka Mol.png" alt="la wakamol"/></a>
-            </li>
-            <li>
-                <span class="menu-item-name">La Morrillo</span>
-                <a href="LaMorrillo.html"><img src="Imagenes/Menu Hamburguesas/MOrrillo.png" alt="la morrillo"/></a>
-            </li>
-        </ol>
-    </section>
-    
-    <!-- Footer -->
-    <footer>
+                <img src="Imagenes/Menu Hamburguesas/La Arrieta.png" alt="home food picture" class="home-img" style="background-color:#A47E3B; border-radius: 25px; margin-right: 25px;">
+            </div>
+        </section>
+      
+        <!-- Ventana modal, por defecto no visiblel -->
+        <div id="ventanaModal" class="modal">
+          <div class="contenido-modal">
+              <h2 style="font-size: 2rem; color: black;">¡Muchas gracias por su compra!</h2>
+              <p style="color: black; font-size: 1.5rem;">Le agradecemos por su preferencia, por favor siga comprando con nosotros</p>
+              <button class="cerrar" style="color: black; font-size: 1rem;">cerrar</button>
+          </div>
+        </div>
+        
+         <!-- Footer -->
+      <footer>
         <div class="sociales">
             <h4>Redes Sociales</h4>
             <br>
@@ -72,6 +63,10 @@
             <a href="https://api.whatsapp.com/send/?phone=%2B50578886714&text&type=phone_number&app_absent=0" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
         </div>
       </footer>
+      
+    </main>
 
+    
+    <script src="Javascript/efecto.js"></script>
 </body>
 </html>
